@@ -1,3 +1,11 @@
 {
-  "name": "FlashMind"
+  "name": "FlashMind 黄金マインド",
+  "short_name": "FlashMind",
+  "description": "自己暗示を短時間で繰り返し表示するフラッシュアプリ",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#080b10",
+  "theme_color": "#11151a"
 }
