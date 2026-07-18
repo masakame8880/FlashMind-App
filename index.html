@@ -1,3 +1,28 @@
-# FlashMind
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#111111">
 
-FlashMind プロジェクト開始
+  <title>FlashMind</title>
+
+  <link rel="stylesheet" href="style.css">
+  <link rel="manifest" href="manifest.json">
+</head>
+
+<body>
+  <main id="app">
+    <h1>FlashMind</h1>
+    <p>読み込み中...</p>
+  </main>
+
+  <script src="script.js"></script>
+
+  <script>
+    if ("serviceWorker" in navigator) {
+      navigator.serviceWorker.register("./service-worker.js");
+    }
+  </script>
+</body>
+</html>
